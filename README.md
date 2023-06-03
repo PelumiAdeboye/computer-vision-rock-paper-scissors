@@ -17,7 +17,8 @@ Create a virtual environment to isolate project dependencies. This step is recom
 Install the project dependencies by running the following command:
 
 ```python
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 This will install the required packages, including random, necessary for running the game.
 
