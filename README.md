@@ -1,6 +1,16 @@
 # Computer Vision RPS
 This project utilizes an image classification model trained using Teachable Machine. The model is designed to classify images into different classes of Rock, Paper, Scissors and Nothing. The model is saved in the TensorFlow format with the filename `keras_model.h5`, and the corresponding labels are stored in the `labels.txt` file.
 
+##Environment Setup
+To set up the environment for running the Rock-Paper-Scissors game, follow these steps:
+
+Ensure you have Python installed on your machine. You can download the latest version of Python from the official website: `python.org`.
+
+Clone the GitHub repository containing the project using the following command:
+
+```python
+
+
 ## Game Implementation
 The Rock-Paper-Scissors game consists of the following components:
 
