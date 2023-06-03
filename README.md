@@ -9,7 +9,7 @@ Ensure you have Python installed on your machine. You can download the latest ve
 Clone the GitHub repository containing the project using the following command:
 
 ```python
-git clone https://github.com/PelumiAdeboye/computer-vision-rock-paper-scissors```
+git clone https://github.com/PelumiAdeboye/computer-vision-rock-paper-scissors ```
 
 Create a virtual environment to isolate project dependencies. This step is recommended to keep the project dependencies separate from your global Python environment
 
