@@ -14,5 +14,5 @@ The Rock-Paper-Scissors game consists of the following components:
 
 To play the game, run the script by executing the following command:
 
-```python``
+```python
 python manual_rps.py
