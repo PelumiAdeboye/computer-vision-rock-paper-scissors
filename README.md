@@ -22,6 +22,8 @@ pip install -r requirements.txt
 
 This will install the required packages, including random, necessary for running the game.
 
+Place your trained TensorFlow model file (`keras_model.h5`) and the corresponding label file (`labels.txt`) in the project directory.
+
 ## Game Implementation
 The Rock-Paper-Scissors game consists of the following components:
 
