@@ -35,7 +35,22 @@ The Rock-Paper-Scissors game consists of the following components:
 
 `play`: This function calls the other functions (`get_computer_choice`, `get_user_choice`, and `get_winner`) to play a game of Rock-Paper-Scissors. It obtains the computer's choice, prompts the user for their choice, and determines the winner based on the choices made.
 
-To play the game, run the script by executing the following command:
+## Usage
+To start the game, run the `camera_rps.py` file. The game will display the webcam feed, and the user should show their hand gesture to the camera within the specified countdown period. The computer will randomly choose its hand gesture, and the winner will be determined based on the classic Rock Paper Scissors rules. The game will continue until either the computer or the user wins three rounds.
 
-```python
-python manual_rps.py
+## Integration with the Model
+The game integrates a pre-trained TensorFlow model (`keras_model.h5`) to recognize the user's hand gesture from the camera input. The model is loaded using the `load_model()` function from the Keras library. The webcam feed is continuously captured, and each frame is resized to match the input shape of the model. The resized frame is then fed into the model to obtain the prediction. The class with the highest probability is considered as the user's hand gesture. The prediction and confidence score are displayed in the terminal.
+
+### Possible Improvements
+There are several ways to further improve the functionality of the game:
+
+Implement a more advanced hand gesture recognition model to enhance accuracy and support additional gestures.
+Add graphical user interface (GUI) elements to provide a more interactive and visually appealing game experience.
+Include audio effects or background music to enhance the gaming atmosphere.
+Implement a game mode where the user can play against another human player locally or online.
+Provide an option to customize the countdown duration or allow the user to trigger the gesture recognition manually.
+
+
+
+## Conclusion
+The Rock Paper Scissors game with computer vision integration provides an engaging and interactive gaming experience. By leveraging the power of computer vision and machine learning, the game enables the user to compete against the computer by showing hand gestures to the camera. With further enhancements and customizations, the game can be extended to create more immersive and enjoyable gameplay.
