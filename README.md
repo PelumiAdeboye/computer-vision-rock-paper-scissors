@@ -45,9 +45,13 @@ The game integrates a pre-trained TensorFlow model (`keras_model.h5`) to recogni
 There are several ways to further improve the functionality of the game:
 
 Implement a more advanced hand gesture recognition model to enhance accuracy and support additional gestures.
+
 Add graphical user interface (GUI) elements to provide a more interactive and visually appealing game experience.
+
 Include audio effects or background music to enhance the gaming atmosphere.
+
 Implement a game mode where the user can play against another human player locally or online.
+
 Provide an option to customize the countdown duration or allow the user to trigger the gesture recognition manually.
 
 
